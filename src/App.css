@@ -1,0 +1,52 @@
+.App {
+  padding:0;
+  margin:0;
+  text-align: center;
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9d704f07-922a-4e61-bd3a-12ba6c92b3d2/d7sa6ql-8599b323-756c-4dd3-9124-3e526735e2f6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlkNzA0ZjA3LTkyMmEtNGU2MS1iZDNhLTEyYmE2YzkyYjNkMlwvZDdzYTZxbC04NTk5YjMyMy03NTZjLTRkZDMtOTEyNC0zZTUyNjczNWUyZjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ve6JvNbxPGHEyXcbybmZP0LkIIWUkVdurulW61vQRx8') no-repeat;
+}
+
+.app-logo {
+  height: 40vmin;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo:hover {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+.main-container{
+  padding: 40px;
+  background-color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0%, 100% {
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(180deg);
+    left: -50px;
+    top: -50px;
+  }
+}
