@@ -1,3 +1,3 @@
-export default function Navbar() {
-  return <h1>This is where my navbar would go</h1>
+export default function Navbar({title}) {
+  return <h1>{title}</h1>
 }
